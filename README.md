@@ -49,3 +49,11 @@
 - 容错：心跳检测、超时判断、环形缓冲区、看门狗复位
 - 外设：ADC采集、S90舵机、编码器、LED
 
+## 源码说明
+源码打包为3个zip压缩包：
+- collection_chip.zip：采集芯片工程，ADC采集、舵机驱动、心跳报文
+- storage_chip.zip：存储芯片工程，CAN接收、Flash双分区存储、互斥锁
+- control_chip.zip：控制芯片工程，故障检测、环形缓冲区、看门狗复位、错误日志
+
+下载解压即可得到完整工程，包含Core/Inc、Core/Src源码与CubeMX的ioc配置文件。
+> 编译产物Debug/Release已剔除，仅保留业务源码。
