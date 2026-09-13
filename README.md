@@ -57,3 +57,4 @@
 
 下载解压即可得到完整工程，包含Core/Inc、Core/Src源码与CubeMX的ioc配置文件。
 > 编译产物Debug/Release已剔除，仅保留业务源码。
+<img width="4096" height="3072" alt="微信图片_20260913181646_40_3" src="https://github.com/user-attachments/assets/46060ef1-af74-439c-9381-63cf056d3a22" />
